@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boleta de Pago - Laboratorio 04</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>💰 Boleta de Pago</h1>
+            <p>Sistema de gestión de pagos</p>
+        </header>
+
+        <section>
+            <h2>📋 Detalle de la Compra</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Cantidad</th>
+                        <th>Precio Unitario</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Laptop Gamer</td>
+                        <td>1</td>
+                        <td>$1,200.00</td>
+                        <td>$1,200.00</td>
+                    </tr>
+                    <tr>
+                        <td>Mouse Inalámbrico</td>
+                        <td>3</td>
+                        <td>$25.00</td>
+                        <td>$75.00</td>
+                    </tr>
+                    <tr>
+                        <td>Teclado Mecánico</td>
+                        <td>2</td>
+                        <td>$80.00</td>
+                        <td>$160.00</td>
+                    </tr>
+                    <tr class="total">
+                        <td colspan="3"><strong>Total General</strong></td>
+                        <td><strong>$1,435.00</strong></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section>
+            <h2>🚀 Acciones Rápidas</h2>
+            <div style="text-align: center;">
+                <a href="index.html" class="btn">🏠 Volver al Inicio</a>
+                <button class="btn" onclick="window.print()">🖨️ Imprimir Boleta</button>
+                <button class="btn" onclick="alert('¡Boleta enviada por email!')">📧 Enviar por Email</button>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
